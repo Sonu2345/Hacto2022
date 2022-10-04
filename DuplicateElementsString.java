@@ -19,14 +19,14 @@ class GFG {
  
         // Checking each character
         // of charArray
-        for (char c : charArray) {
+        for (char ch : charArray) {
  
-            if (map.containsKey(c)) {
+            if (map.containsKey(ch)) {
  
                 // If character is present
                 // in map incrementing it's
                 // count by 1
-                map.put(c, map.get(c) + 1);
+                map.put(c, map.get(ch) + 1);
             }
             else {
  
@@ -34,7 +34,7 @@ class GFG {
                 // in map putting this
                 // character into map with
                 // 1 as it's value.
-                map.put(c, 1);
+                map.put(ch, 1);
             }
         }
  
