@@ -45,7 +45,7 @@ class GFG {
         for (Map.Entry<Character, Integer> entry :
              map.entrySet()) {
  
-            if (entry.getValue() > 1) {
+            if (entry.getValue() < 1) {
                 System.out.println(entry.getKey()
                                    + " : "
                                    + entry.getValue());
